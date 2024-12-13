@@ -1,0 +1,16 @@
+{
+    "number_line": 5000,
+    "number_line_description": "By default number_line is at 5000, if you want a smaller amount of file simply put a higher number or the reverse for more file",
+    "number_padding": 4,
+    "number_padding_description": "By default number_padding is at 4, if you have more than 9999 files extracted you need to put a higher padding number",
+    "spread_sheet_header": true,
+    "spread_sheet_header_description": "By default spread_sheet_header is at true as you have one by default, if you have no heading (description like orginal text,initial, better translation... at the first line Set it to false",
+    "regex_activated": true,
+    "regex_activated_description": "By default regex_activated is at true as you have one by default, if you want no regex trying to change anything you can disable but it may give weird result or error when there is code, you can set it to false",
+    "all_regex": [
+        "\/(\\\\[a-zA-Z]\\[([a-zA-Z]|[0-9]){1,}\\])\/"
+    ],
+    "all_regex_description": "I writen one for my sake, you can test your if you type regex online, important note that on php if your regex expression has \\ , you must add another like this \\ or it will give an error, you must have a delimiter like \/ at the start and the end. to add it, put , after the \" and write between \" that you add",
+    "spreadsheet_column": "B",
+    "spreadsheet_column_description": "Where it should put the translated value, if it also check if there exist one already there"
+}
