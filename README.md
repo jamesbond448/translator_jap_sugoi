@@ -96,4 +96,6 @@ IMPORTANT, if you want to translate another remember to delete all files in the 
 
 This program is slower than the mtool one beceause with translator++ there is still code in it as example 「うぅ…うん…\c[27]♥\c[0]」 to protect the text i use a regex to seperate \c[27] as an example. This make  more line as we have to divide more line for when we take it back.
 
-You can remove the regex in the setting by false or true, you can change the regex expression or even add one of your own. <br /> example add ,"\/(XXXX)\/"   after the " at the end of the first regex, replace XXXX by your regex.
+You can remove the regex in the setting by false or true, you can change the regex expression or even add one of your own. <br />
+example add ,"\/(XXXX)\/"   after the " at the end of the first regex, replace XXXX by your regex.
+Note that on php if your regex expression has \ , you must add another like this \\ or it will give an error, you must have a delimiter like \/ at the start and the end. to add it. must start and end with parentheses () as the code wrote for it by adding each other in one line. You can test your regex online just look on google.
