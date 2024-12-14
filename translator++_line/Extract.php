@@ -15,7 +15,7 @@ if (!file_exists('setting.json')) { //If setting file doesn't exist, will create
 	$setting["regex_activated"] = true;
 	$setting["regex_activated_description"] = "By default regex_activated is at true as you have one by default, if you want no regex trying to change anything you can disable but it may give weird result or error when there is code, you can set it to false";
 	$setting["all_regex"] = ["/(\\\\[a-zA-Z]\\[([a-zA-Z]|[0-9]){1,}\\])/"];
-	$setting["all_regex_description"] = "I writen one for my sake, you can test your if you type regex online, important note that on php if your regex expression has \ , you must add another like this \\ or it will give an error, you must have a delimiter like / at the start and the end. to add it, put , after the \" and write between \" that you add";
+	$setting["all_regex_description"] = "I writen one for my sake, you can test your if you type regex online, important note that on php if your regex expression has \ , you must add another like this \\ or it will give an error, you must have a delimiter like / at the start and the end. to add it, put , after the \" and write between \" that you add. must start and end with parentheses () between delimiter. Example: \"/(XXXX)/\"";
 	$setting["spreadsheet_column"] = "B";
 	$setting["spreadsheet_column_description"] = "Where it should put the translated value, if it also check if there exist one already there";
 	file_put_contents("setting.json", json_encode($setting, JSON_PRETTY_PRINT)); //make pretty so user can easily read it
