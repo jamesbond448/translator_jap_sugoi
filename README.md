@@ -12,9 +12,9 @@ First step you will need to execute php you can use alternative if you want but 
 ![xamp_version](https://github.com/user-attachments/assets/74beb760-2ea4-4743-b53e-e0b98dcaba41)
 
 </details>
-2. Install Sugoi Translation Toolkit at https://www.patreon.com/mingshiba/about
-3. Put this project code into the php folder where you installed your xampp example: D:\xampp\htdocs\
-4. We have to uncomment certain extension in Xampp in the apache module, click config and PHP(php.ini) there are: gd, mbstring, zip
+2. Install Sugoi Translation Toolkit at https://www.patreon.com/mingshiba/about<br />
+3. Put this project code into the php folder where you installed your xampp example: D:\xampp\htdocs\<br />
+4. We have to uncomment certain extension in Xampp in the apache module, click config and PHP(php.ini) there are: gd, mbstring, zip<br />
 <details>
 <summary>Image</summary>
   
@@ -96,4 +96,4 @@ IMPORTANT, if you want to translate another remember to delete all files in the 
 
 This program is slower than the mtool one beceause with translator++ there is still code in it as example 「うぅ…うん…\c[27]♥\c[0]」 to protect the text i use a regex to seperate \c[27] as an example. This make  more line as we have to divide more line for when we take it back.
 
-You can remove the regex in the setting by false or true, you can change the regex expression or even add one of your own, example add ,"\/(XXXX)\/"   after the " at the end of the first regex, replace XXXX by your regex.
+You can remove the regex in the setting by false or true, you can change the regex expression or even add one of your own. <br /> example add ,"\/(XXXX)\/"   after the " at the end of the first regex, replace XXXX by your regex.
