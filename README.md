@@ -31,6 +31,8 @@ Then go to to each line and make sure that extension=gd  does not start with ;  
 
 This program use regex (pattern match) to protect code inside text see the end for more info
 
+if you have no folder like extract, input or output folder inside you can just click extract once, if you don't know just continue the instruction for a while.
+
 The setup is done
 
 Now to translate use translator++, create your project and save then, at the top you can export and choose excel sheet 2007, you can keep the heading on by default and you can change it in the php folder setting
